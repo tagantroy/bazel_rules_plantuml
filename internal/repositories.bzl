@@ -14,8 +14,8 @@ def plantuml_rules_dependencies():
     _maybe(
         http_jar,
         name = "plantuml",
-        url = "https://downloads.sourceforge.net/project/plantuml/1.2020.15/plantuml.1.2020.15.jar?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fplantuml%2Ffiles%2Fplantuml.1.2020.15.jar%2Fdownload&ts=1593896550",
-        sha256 = "1b6903a3a271ed5ce35f6b8ba2ce9cd90a87253f0fc60a7e7ce1e40623117537",
+        url = "https://deac-ams.dl.sourceforge.net/project/plantuml/1.2020.18/plantuml.1.2020.18.jar",
+        sha256 = "a6e2b64a9207acb14f6f587f6e264fbe5e0fffa8cf645eadfe640abc9c9ac1ca",
     )
 
 def _maybe(repo_rule, name, **kwargs):
